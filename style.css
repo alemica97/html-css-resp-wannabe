@@ -151,7 +151,8 @@ img {
     object-position: center;
   }
 
-  #why .first, #why .second, #why .third{
+  #why .row>.first, #why .row>.second, #why .row>.third {
     font-size: calc(1vw + 8px);
-  }
+    margin: 0;
+}
 }
