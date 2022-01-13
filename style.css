@@ -276,3 +276,23 @@ img {
     font-size: calc(2vw + 16px);
   }
 }
+
+     /* Media per la stampa */
+@media print{
+
+  #why .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #why .row h1, #why .row>.first, #why .row>.second, #why .row>.third {
+    width: calc(100% / 4);
+    padding: 10px;
+  }
+  
+  h1{
+    margin-bottom: 20px;
+  }
+}
